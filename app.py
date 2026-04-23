@@ -16,11 +16,11 @@ import base64
 from io import BytesIO
 
 # Import utility modules
-from utils.text_extraction import extract_text, get_word_count, estimate_reading_time
-from utils.skill_matcher import (
+from text_extraction import extract_text, get_word_count, estimate_reading_time
+from skill_matcher import (
     initialize_skill_matcher, extract_skills, categorize_skills, calculate_skill_match
 )
-from utils.scoring_engine import (
+from scoring_engine import (
     calculate_resume_strength, get_score_color, get_score_emoji
 )
 
